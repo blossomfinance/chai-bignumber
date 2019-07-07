@@ -8,7 +8,6 @@
     "test": "mocha test/*.js"
   },
   "devDependencies": {
-    "bignumber.js": "^8.0.1",
     "chai": "^4.2.0",
     "jshint": "^2.9.2",
     "mocha": "^5.2.0"
@@ -37,5 +36,9 @@
   ],
   "files": [
     "chai-bignumber.js"
-  ]
+  ],
+  "dependencies": {
+    "bn.js": "^4.11.8",
+    "number-to-bn": "^1.7.0"
+  }
 }
